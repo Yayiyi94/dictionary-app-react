@@ -13,7 +13,24 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer></footer>
+        <footer>
+          Coded by Yadira DLTR, code hosted on{" "}
+          <a
+            href="https://github.com/Yayiyi94/dictionary-app-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>{" "}
+          and website hosted on{" "}
+          <a
+            href="https://dictionary-app-ydltr.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
