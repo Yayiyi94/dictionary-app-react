@@ -4,8 +4,11 @@
   margin: 15px auto;
 }
 
+.centered-text-input {
+  text-align: center;
+}
+
 body {
-  color: #ffffff;
   text-align: center;
   background-color: #e5e5f7;
   background-size: 30px 30px;
