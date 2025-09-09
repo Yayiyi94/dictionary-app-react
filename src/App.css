@@ -1,5 +1,19 @@
 .App-logo {
-  max-width: 200px;
+  max-width: 150px;
   display: block;
-  margin: 0 auto;
+  margin: 15px auto;
+}
+
+body {
+  color: #ffffff;
+  text-align: center;
+  background-color: #e5e5f7;
+  background-size: 30px 30px;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #578edb,
+    #444cf7 1px,
+    #e6e6e6 1px,
+    #e6e6e6
+  );
 }
