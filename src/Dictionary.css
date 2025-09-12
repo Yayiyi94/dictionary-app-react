@@ -50,3 +50,8 @@ li {
 .Synonyms li {
   margin: 3px;
 }
+
+.Photos img {
+  border-radius: 16px;
+  margin-top: 15px;
+}
