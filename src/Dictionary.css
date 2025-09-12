@@ -7,7 +7,7 @@
   text-align: center;
   background-color: #ffffff;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
   margin: 20px 0;
 }
@@ -19,6 +19,7 @@
 
 .Meaning section {
   padding: 30px;
+  border-radius: 15px;
   color: #ee2e74;
   background-size: 30px 30px;
   background-image: repeating-linear-gradient(
@@ -52,6 +53,37 @@ li {
 }
 
 .Photos img {
-  border-radius: 16px;
+  border-radius: 6px;
   margin-top: 15px;
+}
+
+.Photos section {
+  padding: 10px;
+  border-radius: 15px;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #578edb,
+    #444cf7 1px,
+    #faf6f8 1px,
+    #faf6f8
+  );
+}
+
+.sound-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: transform 0.2s;
+}
+
+.sound-button:hover:not(.disabled) {
+  transform: scale(1.1);
+}
+
+.sound-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

@@ -3,10 +3,9 @@ import "./Dictionary.css";
 
 export default function Photos(props) {
   if (props.photos) {
-    console.log(props.photos);
     return (
-      <section className="Photos">
-        <div className="row">
+      <div className="Photos">
+        <section className="row">
           {props.photos.map(function (image, index) {
             return (
               <div className="col-4" key={index}>
@@ -20,8 +19,8 @@ export default function Photos(props) {
               </div>
             );
           })}
-        </div>
-      </section>
+        </section>
+      </div>
     );
   } else {
     return null;

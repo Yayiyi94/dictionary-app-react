@@ -7,16 +7,18 @@ export default function Results(props) {
     return (
       <div className="Results">
         <section>
-          <h2>{props.results.word}</h2>
+          <h2 className="text-capitalize">{props.results.word}</h2>
           {props.results.phonetic}
         </section>
-        {props.results.meanings.map(function (meaning, index) {
-          return (
-            <div key={index}>
-              <Meaning meaning={meaning} />
-            </div>
-          );
-        })}
+        <div className="row">
+          {props.results.meanings.map(function (meaning, index) {
+            return (
+              <div className="col-6" key={index}>
+                <Meaning meaning={meaning} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   } else {
