@@ -4,19 +4,25 @@
   margin: 15px auto;
 }
 
+h1 {
+  text-align: center;
+  color: #ee2e74;
+}
+
 .centered-text-input {
+  text-align: center;
 }
 
 body {
-  background-color: #e5e5f7;
-  background-size: 30px 30px;
-  background-image: repeating-linear-gradient(
-    0deg,
-    #578edb,
-    #444cf7 1px,
-    #e6e6e6 1px,
-    #e6e6e6
-  );
+  background-color: #fff4f8;
+}
+
+input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #ddd;
 }
 
 footer {

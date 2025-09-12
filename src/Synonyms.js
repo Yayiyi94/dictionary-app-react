@@ -4,12 +4,17 @@ import "./Dictionary.css";
 export default function Synonyms(props) {
   if (props.synonyms) {
     return (
-      <ul className="Synonyms">
+      <ol className="Synonyms list-group">
+        <h6>Synonyms:</h6>
         {props.synonyms.map(function (synonym, index) {
           return <li key={index}>{synonym}</li>;
         })}
-      </ul>
+      </ol>
     );
   }
-  return <p>No synonyms</p>;
+  return (
+    <div className="Synonyms list-group">
+      <h6>No synonyms avaible</h6>
+    </div>
+  );
 }

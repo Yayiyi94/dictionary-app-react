@@ -3,6 +3,50 @@
   font-size: 45px;
 }
 
-.Meaning {
+.Results section {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgb(0 0 0 /10%);
+  margin: 20px 0;
+}
+
+.Meaning h3 {
+  color: #ea6456;
+  text-decoration: underline;
+}
+
+.Meaning section {
+  padding: 30px;
   color: #ee2e74;
+  background-size: 30px 30px;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #578edb,
+    #444cf7 1px,
+    #faf6f8 1px,
+    #faf6f8
+  );
+  text-align: left;
+}
+
+.hint {
+  font-size: 11px;
+  color: rgba(218, 13, 71, 0.5);
+  margin-top: 5px;
+}
+
+.Example h6 {
+  color: #ea6456;
+}
+
+.Synonyms h6,
+li {
+  font-weight: 500;
+  color: #ee2e74;
+}
+
+.Synonyms li {
+  margin: 3px;
 }
